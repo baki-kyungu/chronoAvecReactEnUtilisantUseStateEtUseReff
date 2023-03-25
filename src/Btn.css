@@ -1,0 +1,83 @@
+:root {
+    --fts-red: #d53c42;
+    --fts-blue: #2596be;
+    --fts-white: white;
+    --fts-green: green;
+    --fml: "Open Sans";
+    --border-top: 1px solid #bcbcbc;
+    --front-padding: 80px;
+    --golden-color: goldenrod;
+    --fts-black: black;
+}
+
+body{
+
+    background-color: var(--fts-black);
+}
+
+
+.flex{
+
+    display: flex;
+    flex-direction: column;
+    border: 8px solid var(--fts-white);
+    border-left-color: var(--fts-green);
+    border-top-color: var(--fts-blue);
+    border-bottom-color: var(--fts-red);
+    padding-bottom: 20px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 400px;
+}
+
+.btns{
+   
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around; 
+
+}
+
+.title-chrn{
+    width: 400px;  
+    text-align: center;
+    height: 60px;
+    margin: auto; 
+}
+
+button{
+
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    font-family: var(--fml);
+    border-radius: 15px;
+
+}
+
+.btnStp{
+
+    background-color: var(--fts-blue);
+}
+
+.btnStr{
+
+    background-color: var(--fts-green);
+}
+
+.btnRst{
+
+    background-color: var(--fts-red);
+}
+
+#chronometre{
+
+    color: var(--fts-white);
+}
